@@ -40,11 +40,14 @@ Cloud Infrastructure • AWS • Linux Administration • IaaS • Networking �
 
 The following screenshots document the configuration, deployment, monitoring, and testing of the AWS EC2 web server environment.
 
+
 ### 1. EC2 Instance Configuration
 
 Configured an Amazon EC2 instance using Amazon Linux 2023 and a `t3.small` instance type.
 
 ![EC2 Instance Configuration](screenshots/ec2-instance-configuration.png)
+
+
 
 ### 2. Security Group Configuration
 
@@ -52,11 +55,15 @@ Configured security group rules to permit SSH administration and HTTP traffic to
 
 ![Security Group Configuration](screenshots/security-group-configuration.png)
 
+
+
 ### 3. EBS Storage Configuration
 
 Configured an 8 GiB `gp3` EBS volume with encryption, 3,000 IOPS, and 125 MB/s throughput.
 
 ![EBS Storage Configuration](screenshots/ebs-storage-configuration.png)
+
+
 
 ### 4. Apache Web Server Service
 
@@ -64,17 +71,23 @@ Installed Apache HTTP Server on Amazon Linux and verified that the `httpd` servi
 
 ![Apache Service Running](screenshots/apache-service-running.png)
 
+
+
 ### 5. Web Server Deployment
 
 Successfully deployed and accessed the Apache-hosted webpage from the EC2 instance.
 
 ![Apache Web Server Deployment](screenshots/apache-web-server-deployment.png)
 
+
+
 ### 6. CloudWatch CPU Monitoring
 
 Used Amazon CloudWatch to monitor CPU utilization for the EC2 instance.
 
 ![CloudWatch CPU Monitoring](screenshots/cloudwatch-cpu-monitoring.png)
+
+
 
 ### 7. Network Performance Testing
 
