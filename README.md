@@ -1,5 +1,7 @@
 # AWS IaaS Cloud Infrastructure Deployment
 
+![AWS IaaS Cloud Infrastructure Deployment](aws-iaas-architecture.png)
+
 ## Project Overview
 
 This project demonstrates the deployment and configuration of a Linux-based web server in Amazon Web Services (AWS) using Infrastructure as a Service (IaaS). The environment was built using Amazon EC2 and configured to provide web services, network connectivity, storage, monitoring, and alerting.
